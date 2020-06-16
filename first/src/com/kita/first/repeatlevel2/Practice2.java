@@ -1,4 +1,4 @@
-package com.kita.first.mission;
+package com.kita.first.repeatlevel2;
 
 import java.util.Random;
 
