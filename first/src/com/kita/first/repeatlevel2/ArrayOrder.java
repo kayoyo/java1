@@ -19,18 +19,17 @@ public class ArrayOrder {
 		 */
 
 		for (int i = 0; i < arr.length - 1; i++) { // 01234567 i값과 r값을 비교
-			for (int jj = i + 1; jj < arr.length; jj++) { // 12345678
-			}
-			if (arr[i] > arr[jj]) {
-				int s = arr[i];
-				arr[i] = arr[jj];
-				arr[jj] = s;
-			}
-		}
-		for (int s = 0; s < arr.length; s++) {
-			{
-				System.out.print(arr[s] + " ");
+			for (int e = i + 1; e < arr.length; e++) { // 12345678
+				if (arr[i] > arr[e]) {
+					int temp = arr[i];
+					arr[i] = arr[e];
+					arr[e] = temp;
+				}
 			}
 		}
+		for (int value : arr) {
+			System.out.print(value + " ");
+		}
+
 	}
 }
