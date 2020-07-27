@@ -1,1 +1,1 @@
-자바 Lesson 1
+JAVA Lesson 1
