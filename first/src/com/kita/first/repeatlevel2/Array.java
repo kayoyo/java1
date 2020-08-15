@@ -49,6 +49,20 @@ public class Array {
 			arr[i] = i;
 		}
 		
+		int arr[][] = new int [6][6]
+		for(int i=0; i<arr.length; i++){
+			for(int j=0; j<arr[i].length; j++){
+				if(arr[i] == arr[j]){
+					arr[i][j] = 1;
+				}
+				
+		}
+		int arr[][] = new int[6][6]
+			for(int i=0; i<arr.length; i++){
+				for(int j=0; j<arr[i].length; j++){
+					if(arr[])
+			}
+		}	
 		
 	}
 
