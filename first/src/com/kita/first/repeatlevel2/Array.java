@@ -24,7 +24,8 @@ public class Array {
 
 		int [] arr7 = new int[100];
 		//new int[] 값을 변경하면 arr7.length의 값도 변경됨
-		for(int i=0; i<arr7.length; i++) { //100번 돌면서 각방에 i값 5를 찍음
+		int i;
+		for(i=0; i<arr7.length; i++) { //100번 돌면서 각방에 i값 5를 찍음
 			arr7[i] = 5;
 		}
 		for(int i=0; i<arr7.length; i++) { //100번을 돌면서 [i]값을 찍음
@@ -35,7 +36,19 @@ public class Array {
 			System.out.println(arr7[i]); //100번을 돌면서 [i]값을 찍음
 		}*/  
 		
-	}
+		
+		int arr[] = new int[100];
+		//반대로 초기화(0으로 초기화)
+		for(int i=arr.length-1; i>=0; i--)
+		{
+			arr[i] = 0 ;
+	        }
+		
+		for(int i=0; i<arr.length; i++)
+		{
+			arr[i] = i;
+		}
+		
 		
 	}
 
